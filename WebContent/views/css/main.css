@@ -8,18 +8,21 @@
   display: flex;
   justify-content: center;
 } */
-
-nav.nav-categories {
-  background-color: black;
-  color: white;
-  height: 3rem;
-  padding: 0 20%;
+.nav-categories {
+	background-color: black;
+	color: white;
+	height: 3rem;
+	padding: 0 20%;
 }
 
 a.nav-category-item {
-  color: white;
+	color: white;
 }
 
 a.navbar-brand, a.nav-link {
-  color: black;
+	color: black;
+}
+
+.join-form {
+	padding: 30px;
 }
