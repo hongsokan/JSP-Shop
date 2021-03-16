@@ -13,11 +13,11 @@
 <title>Mypage</title>
 
 <!-- Bootstrap core CSS -->
-<link href="/JSP-Shop/WebContent/vendor/bootstrap/css/bootstrap.min.css"
+<link href="/JSP-Shop/vendor/bootstrap/css/bootstrap.min.css"
 	rel="stylesheet">
 
 <!-- Custom styles for this template -->
-<link href="/JSP-Shop/WebContent/css/main.css" rel="stylesheet">
+<link href="/JSP-Shop/css/main.css" rel="stylesheet">
 
 
 </head>
@@ -48,8 +48,8 @@
 	</footer>
 
 	<!-- Bootstrap core JavaScript -->
-	<script src="/JSP-Shop/WebContent/vendor/jquery/jquery.min.js"></script>
-	<script src="/JSP-Shop/WebContent/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="/JSP-Shop/vendor/jquery/jquery.min.js"></script>
+	<script src="/JSP-Shop/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
