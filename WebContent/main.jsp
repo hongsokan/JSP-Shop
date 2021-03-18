@@ -1,6 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
+<%-- <%
+	String login = (String) session.getAttribute("login");
+	if (login == null || login.trim().equals("")) {
+		// response.sendRedirect("loginForm.jsp");
+		
+	} else {
+%> --%>
+
 <!DOCTYPE html>
 <html>
 
@@ -44,13 +52,13 @@
 							<!-- <span class="sr-only">(current)</span> -->
 					</a></li>
 
-					<li class="nav-item"><a class="nav-link" href="#">장바구니</a></li>
+					<li class="nav-item"><a class="nav-link" href="cartForm.jsp">장바구니</a></li>
 
-					<li class="nav-item"><a class="nav-link" href="#">마이페이지</a></li>
+					<li class="nav-item"><a class="nav-link" href="mypageForm.jsp">마이페이지</a></li>
 
-					<li class="nav-item"><a class="nav-link" href="#">로그인</a></li>
+					<li class="nav-item"><a class="nav-link" href="loginForm.jsp">로그인</a></li>
 
-					<li class="nav-item"><a class="nav-link" href="#">회원가입</a></li>
+					<li class="nav-item"><a class="nav-link" href="joinForm.jsp">회원가입</a></li>
 				</ul>
 			</div>
 		</div>
@@ -63,25 +71,6 @@
 				class="nav-category-item" href="#">상의</a> <a
 				class="nav-category-item" href="#">하의</a> <a
 				class="nav-category-item" href="#">기타</a>
-			<!-- <ul class="navbar-nav ml-auto">
-
-        <li class="nav-item active">
-          <a class="nav-category-item" href="#">자켓</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-category-item" href="#">상의</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-category-item" href="#">하의</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-category-item" href="#">기타</a>
-        </li>
-      </ul> -->
-
 		</div>
 	</nav>
 
@@ -277,3 +266,8 @@
 </body>
 
 </html>
+
+
+<%-- <%
+	}
+%> --%>
