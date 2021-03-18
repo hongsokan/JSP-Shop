@@ -10,7 +10,7 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Mypage</title>
+<title>Cart</title>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet"
@@ -28,7 +28,7 @@
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container">
-			<a class="navbar-brand" href="#">Shop</a>
+			<a class="navbar-brand" href="main.jsp"">Shop</a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -65,7 +65,16 @@
 		</div>
 	</nav>
 
-	<!-- Mypage Content -->
+
+
+
+	<!-- Cart Content -->
+	<h3 class="mt-3 mb-3 text-center">장바구니</h3>
+	
+	<div class="container-md p-3 col-8 mb-5 mx-auto text-center border">
+		
+	</div>
+
 
 
 

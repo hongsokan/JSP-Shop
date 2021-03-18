@@ -28,7 +28,7 @@
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container">
-			<a class="navbar-brand" href="#">Shop</a>
+			<a class="navbar-brand" href="main.jsp"">Shop</a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -65,10 +65,13 @@
 		</div>
 	</nav>
 
+
+
+
 	<!-- Join Content -->
 	<h3 class="mt-3 mb-3 text-center">회원가입</h3>
 
-	<form class="p-3 col-8 mx-auto">
+	<form class="container-md p-3 col-8 mb-5 mx-auto">
 
 		<div class="mb-3">
 			<label for="inputEmail1" class="form-label">이메일</label> <input
@@ -152,6 +155,8 @@
 		<button type="submit" class="w-100 btn btn-lg btn-primary mb-5">완료</button>
 
 	</form>
+
+
 
 
 	<!-- Footer -->

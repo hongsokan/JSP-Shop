@@ -28,7 +28,7 @@
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container">
-			<a class="navbar-brand" href="#">Shop</a>
+			<a class="navbar-brand" href="main.jsp"">Shop</a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -65,18 +65,21 @@
 		</div>
 	</nav>
 
+
+
+
 	<!-- Mypage Content -->
 	<h3 class="mt-3 mb-3 text-center">마이페이지</h3>
 
-	<div class="container-md p-4 col-8 mb-3 text-center border">
-		<div class="row">
+	<div class="container-md p-3 col-8 mb-5 mx-auto text-center">
+		<div class="h-50 p-3 row border">
 			<div class="col">주문조회</div>
 			<div class="col">포인트</div>
 			<div class="col">누적금액</div>
 		</div>
-	</div>
-
-	<div class="container-md p-4 col-8 mb-3 text-center border">
+		
+		<br>
+		
 		<table class="table table-bordered">
 
 			<tr>
@@ -102,6 +105,8 @@
 			</tr>
 		</table>
 	</div>
+
+
 
 
 	<!-- Footer -->

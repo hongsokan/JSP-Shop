@@ -37,7 +37,7 @@
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container">
-			<a class="navbar-brand" href="#">Shop</a>
+			<a class="navbar-brand" href="main.jsp">Shop</a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -74,8 +74,11 @@
 		</div>
 	</nav>
 
-	<!-- Main Page Content -->
-	<div class="container">
+
+
+
+	<!-- Main Content -->
+	<div class="container-md p-3 col-8 mb-5 mx-auto">
 
 		<div class="row">
 
@@ -234,6 +237,8 @@
 
 	</div>
 	<!-- /.container -->
+
+
 
 
 	<!-- Footer -->
