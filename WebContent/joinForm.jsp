@@ -65,9 +65,9 @@
 		</div>
 	</nav>
 
-	<!-- Mypage Content -->
+	<!-- Join Content -->
 	<form class="p-3 col-8 mx-auto">
-		<h1 class="text-center">회원가입</h1>
+		<h3 class="mb-3 fw-normal text-center">회원가입</h3>
 
 		<div class="mb-3">
 			<label for="inputEmail1" class="form-label">이메일</label> <input
@@ -117,7 +117,7 @@
 			<label class="form-check-label" for="checkAll">약관 모두 동의</label>
 		</div>
 
-		<div class="p-3 border">
+		<div class="mb-3 p-3 border">
 			<div class="mb-3 form-check">
 				<input type="checkbox" class="form-check-input" id="ageCheck">
 				<label class="form-check-label" for="ageCheck">만 14세 이상입니다. </label>
@@ -144,7 +144,7 @@
 			</div>
 		</div>
 
-		<div class="d-grid col-14">
+		<div class="mb-5 d-grid col-14">
 			<button type="submit" class="btn btn-primary col-12">완료</button>
 		</div>
 
