@@ -25,10 +25,67 @@
 </head>
 
 <body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<a class="navbar-brand" href="#">Shop</a>
 
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item active"><a class="nav-link" href="#">소개
+							<!-- <span class="sr-only">(current)</span> -->
+					</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="cartForm.jsp">장바구니</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="mypageForm.jsp">마이페이지</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="loginForm.jsp">로그인</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="joinForm.jsp">회원가입</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Categories Navbar -->
+	<nav class="navbar navbar-expand-lg nav-categories">
+		<div class="container col-lg-12">
+			<a class="nav-category-item" href="#">자켓</a> <a
+				class="nav-category-item" href="#">상의</a> <a
+				class="nav-category-item" href="#">하의</a> <a
+				class="nav-category-item" href="#">기타</a>
+		</div>
+	</nav>
 
 	<!-- Mypage Content -->
-
+	<form>
+		<div class="mb-3">
+			<label for="exampleInputEmail1" class="form-label">Email
+				address</label> <input type="email" class="form-control"
+				id="exampleInputEmail1" aria-describedby="emailHelp">
+			<div id="emailHelp" class="form-text">We'll never share your
+				email with anyone else.</div>
+		</div>
+		<div class="mb-3">
+			<label for="exampleInputPassword1" class="form-label">Password</label>
+			<input type="password" class="form-control"
+				id="exampleInputPassword1">
+		</div>
+		<div class="mb-3 form-check">
+			<input type="checkbox" class="form-check-input" id="exampleCheck1">
+			<label class="form-check-label" for="exampleCheck1">Check me
+				out</label>
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
 
 
 	<!-- Footer -->
