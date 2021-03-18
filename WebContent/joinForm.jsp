@@ -66,25 +66,88 @@
 	</nav>
 
 	<!-- Mypage Content -->
-	<form>
+	<form class="p-3 col-8 mx-auto">
+		<h1 class="text-center">회원가입</h1>
+
 		<div class="mb-3">
-			<label for="exampleInputEmail1" class="form-label">Email
-				address</label> <input type="email" class="form-control"
-				id="exampleInputEmail1" aria-describedby="emailHelp">
-			<div id="emailHelp" class="form-text">We'll never share your
-				email with anyone else.</div>
+			<label for="inputEmail1" class="form-label">이메일</label> <input
+				type="email" class="form-control" id="inputEmail1"
+				aria-describedby="emailHelp" placeholder="email@site.com">
+			<!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
 		</div>
+
 		<div class="mb-3">
-			<label for="exampleInputPassword1" class="form-label">Password</label>
-			<input type="password" class="form-control"
-				id="exampleInputPassword1">
+			<label for="inputPassword" class="form-label">비밀번호</label> <input
+				type="password" class="form-control" id="inputPassword"
+				placeholder="비밀번호 (숫자, 영문, 특수문자 조합 최소 8자)">
 		</div>
+
+		<div class="mb-3">
+			<label for="inputPasswordCheck" class="form-label">비밀번호 확인</label> <input
+				type="password" class="form-control" id="inputPasswordCheck"
+				placeholder="비밀번호 확인">
+		</div>
+
+		<div class="mb-3">
+			<label for="inputBirth" class="form-label">생년월일</label> <input
+				type="text" class="form-control" id="inputBirth"
+				placeholder="생년월일 입력 (yymmdd)">
+		</div>
+
+		<div class="mb-3">
+			<label for="inputEmail" class="form-label">이메일</label> <input
+				type="text" class="form-control" id="inputEmail"
+				placeholder="이메일@주소">
+		</div>
+
+		<div class="mb-3">
+			<label for="inputPhone" class="form-label">전화번호</label> <input
+				type="text" class="form-control" id="inputPhone"
+				placeholder="전화번호 입력 (010XXXXXXXX)">
+		</div>
+
+		<div class="mb-3">
+			<label for="inputRecommender" class="form-label">추천인</label> <input
+				type="text" class="form-control" id="inputRecommender"
+				placeholder="추천인 아이디 입력">
+		</div>
+
 		<div class="mb-3 form-check">
-			<input type="checkbox" class="form-check-input" id="exampleCheck1">
-			<label class="form-check-label" for="exampleCheck1">Check me
-				out</label>
+			<input type="checkbox" class="form-check-input" id="checkAll">
+			<label class="form-check-label" for="checkAll">약관 모두 동의</label>
 		</div>
-		<button type="submit" class="btn btn-primary">Submit</button>
+
+		<div class="p-3 border">
+			<div class="mb-3 form-check">
+				<input type="checkbox" class="form-check-input" id="ageCheck">
+				<label class="form-check-label" for="ageCheck">만 14세 이상입니다. </label>
+			</div>
+
+			<div class="mb-3 form-check">
+				<input type="checkbox" class="form-check-input" id="agreeCheck">
+				<label class="form-check-label" for="agreeCheck">약관 동의 </label>
+			</div>
+			
+			<div class="mb-3 form-check">
+				<input type="checkbox" class="form-check-input" id="privacyCheck">
+				<label class="form-check-label" for="privacyCheck">개인정보수집 및 이용에 대한 안내 </label>
+			</div>
+			
+			<div class="mb-3 form-check">
+				<input type="checkbox" class="form-check-input" id="eventCheck">
+				<label class="form-check-label" for="eventCheck">이벤트/마케팅 수신 동의 </label>
+			</div>
+			
+			<div class="mb-3 form-check">
+				<input type="checkbox" class="form-check-input" id="nightCheck">
+				<label class="form-check-label" for="nightCheck">야간 혜택 알림 수신 동의 </label>
+			</div>
+		</div>
+
+		<div class="d-grid col-14">
+			<button type="submit" class="btn btn-primary col-12">완료</button>
+		</div>
+
 	</form>
 
 
