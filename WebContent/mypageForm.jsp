@@ -66,7 +66,42 @@
 	</nav>
 
 	<!-- Mypage Content -->
+	<h3 class="mt-3 mb-3 text-center">마이페이지</h3>
 
+	<div class="container-md p-4 col-8 mb-3 text-center border">
+		<div class="row">
+			<div class="col">주문조회</div>
+			<div class="col">포인트</div>
+			<div class="col">누적금액</div>
+		</div>
+	</div>
+
+	<div class="container-md p-4 col-8 mb-3 text-center border">
+		<table class="table table-bordered">
+
+			<tr>
+				<td style="width:25%" rowspan="5" align="center" bgcolor="skyblue">사진</td>
+				<td style="width:15%" >아이디</td>
+				<td style="width:60%" >id</td>
+			</tr>
+			<tr>
+				<td>이름</td>
+				<td>name</td>
+			</tr>
+			<tr>
+				<td>전화번호</td>
+				<td>phone</td>
+			</tr>
+			<tr>
+				<td>이메일</td>
+				<td>email</td>
+			</tr>
+			<tr>
+				<td>주소</td>
+				<td>address</td>
+			</tr>
+		</table>
+	</div>
 
 
 	<!-- Footer -->
@@ -95,7 +130,6 @@
 		src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
 		crossorigin="anonymous"></script>
-
 </body>
 
 </html>

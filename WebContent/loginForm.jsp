@@ -10,7 +10,7 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Mypage</title>
+<title>Login</title>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet"
@@ -66,8 +66,9 @@
 	</nav>
 
 	<!-- Login Content -->
+	<h3 class="mt-3 mb-3 text-center">로그인</h3>
+	
 	<form class="p-3 col-8 mx-auto">
-		<h3 class="mb-3 fw-normal text-center">로그인</h3>
 		
 		<label for="inputEmail" class="visually-hidden">이메일</label>
 		<input type="email" id="inputEmail" class="form-control mb-3"
@@ -83,7 +84,7 @@
 			</label>
 		</div>
 		
-		<button class="w-100 btn btn-lg btn-primary mb-5" type="submit">로그인</button>
+		<button type="submit" class="w-100 btn btn-lg btn-primary mb-5">로그인</button>
 	</form>
 
 

@@ -10,7 +10,7 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Mypage</title>
+<title>Join</title>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet"
@@ -66,8 +66,9 @@
 	</nav>
 
 	<!-- Join Content -->
+	<h3 class="mt-3 mb-3 text-center">회원가입</h3>
+
 	<form class="p-3 col-8 mx-auto">
-		<h3 class="mb-3 fw-normal text-center">회원가입</h3>
 
 		<div class="mb-3">
 			<label for="inputEmail1" class="form-label">이메일</label> <input
@@ -120,33 +121,35 @@
 		<div class="mb-3 p-3 border">
 			<div class="mb-3 form-check">
 				<input type="checkbox" class="form-check-input" id="ageCheck">
-				<label class="form-check-label" for="ageCheck">만 14세 이상입니다. </label>
+				<label class="form-check-label" for="ageCheck">만 14세 이상입니다.
+				</label>
 			</div>
 
 			<div class="mb-3 form-check">
 				<input type="checkbox" class="form-check-input" id="agreeCheck">
 				<label class="form-check-label" for="agreeCheck">약관 동의 </label>
 			</div>
-			
+
 			<div class="mb-3 form-check">
 				<input type="checkbox" class="form-check-input" id="privacyCheck">
-				<label class="form-check-label" for="privacyCheck">개인정보수집 및 이용에 대한 안내 </label>
+				<label class="form-check-label" for="privacyCheck">개인정보수집 및
+					이용에 대한 안내 </label>
 			</div>
-			
+
 			<div class="mb-3 form-check">
 				<input type="checkbox" class="form-check-input" id="eventCheck">
-				<label class="form-check-label" for="eventCheck">이벤트/마케팅 수신 동의 </label>
+				<label class="form-check-label" for="eventCheck">이벤트/마케팅 수신
+					동의 </label>
 			</div>
-			
+
 			<div class="mb-3 form-check">
 				<input type="checkbox" class="form-check-input" id="nightCheck">
-				<label class="form-check-label" for="nightCheck">야간 혜택 알림 수신 동의 </label>
+				<label class="form-check-label" for="nightCheck">야간 혜택 알림 수신
+					동의 </label>
 			</div>
 		</div>
 
-		<div class="mb-5 d-grid col-14">
-			<button type="submit" class="btn btn-primary col-12">완료</button>
-		</div>
+		<button type="submit" class="w-100 btn btn-lg btn-primary mb-5">완료</button>
 
 	</form>
 
