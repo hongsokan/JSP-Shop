@@ -71,8 +71,60 @@
 	<!-- Cart Content -->
 	<h3 class="mt-3 mb-3 text-center">장바구니</h3>
 	
-	<div class="container-md p-3 col-8 mb-5 mx-auto text-center border">
-		
+	<div class="container-md p-3 col-8 mb-5 mx-auto text-center">
+	
+		<table class="table table-bordered">
+			<tr>
+				<th scope="col" colspan="8">일반상품</th>
+			</tr>
+			
+			<tr>
+				<th scope="col">번호</th>
+				<th scope="col">이미지</th>
+				<th scope="col">상품정보</th>
+				<th scope="col">수량</th>
+				<th scope="col">판매가</th>
+				<th scope="col">적립금</th>
+				<th scope="col">배송비</th>
+				<th scope="col">선택</th>
+			</tr>
+			
+			<tr>
+				<td scope="col">1</td>
+				<td scope="col">image</td>
+				<td scope="col">상품1</td>
+				<td scope="col">1</td>
+				<td scope="col">3,000</td>
+				<td scope="col">300</td>
+				<td scope="col">2,500</td>
+				<td scope="col">삭제</td>
+			</tr>
+			
+			<tr>
+				<td scope="col" colspan="8">
+					(상품금액) + (배송비) = (합계)
+				</td>
+			</tr>
+			
+			<tr>
+				<th scope="col" colspan="2">총 상품금액</th>
+				<th scope="col" colspan="2">적립 예정 금액</th>
+				<th scope="col" colspan="4">결제 예정 금액</th>
+			</tr>
+			
+			<tr>
+				<td scope="col" colspan="2">0원</td>
+				<td scope="col" colspan="2">0원</td>
+				<td scope="col" colspan="4">0원</td>
+			</tr>
+		</table>
+
+		<div class="btn-group">
+			<a href="#" class="btn btn-primary" aria-current="page">상품결제</a> 
+			<a href="#" class="btn btn-primary">장바구니 비우기</a> 
+			<a href="#" class="btn btn-primary">쇼핑 계속하기</a>
+		</div>
+
 	</div>
 
 

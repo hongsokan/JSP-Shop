@@ -10,7 +10,7 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Simple Form</title>
+<title>Sample Page</title>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet"
@@ -68,8 +68,8 @@
 
 
 
-	<!-- Simple Form Content -->
-	<h3 class="mt-3 mb-3 text-center">Simple Form</h3>
+	<!-- Sample Page Content -->
+	<h3 class="mt-3 mb-3 text-center">Sample Page</h3>
 	
 	<div class="container-md p-3 col-8 mb-5 mx-auto text-center border">
 		
