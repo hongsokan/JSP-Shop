@@ -1,13 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
-<%-- <%
-	String login = (String) session.getAttribute("login");
-	if (login == null || login.trim().equals("")) {
-		// response.sendRedirect("loginForm.jsp");
-		
-	} else {
-%> --%>
+<%
+String login = (String) session.getAttribute("login");
+if (login == null || login.trim().equals("")) {
+	response.sendRedirect("/JSP-Shop/loginForm.jsp");
+} else {
+%>
 
 <!DOCTYPE html>
 <html>
@@ -48,8 +47,24 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 
-					<li class="nav-item"><a class="nav-link" href="#">소개
-							<!-- <span class="sr-only">(current)</span> -->
+					<li class="nav-item"><span id="member-id"><%=login %> 님
+							반갑습니다. </span></li>
+					
+					<li>
+						<a href="/JSP-Shop/logout.jsp">로그아웃</a>
+					</li>
+					
+					<%-- <h3>
+						<a href="/jspPro/chap08_member/memberInfo.jsp?id=<%=login%>">회원정보보기</a>
+					</h3>
+					<% if(login.equals("admin")) { %>
+					<h3>
+						<a href="/jspPro/chap08_member/memberList.jsp">회원목록보기</a>
+					</h3>
+					<% } %> --%>
+
+
+					<li class="nav-item"><a class="nav-link" href="#">소개 <!-- <span class="sr-only">(current)</span> -->
 					</a></li>
 
 					<li class="nav-item"><a class="nav-link" href="cartForm.jsp">장바구니</a></li>
@@ -272,7 +287,4 @@
 
 </html>
 
-
-<%-- <%
-	}
-%> --%>
+<% } %>

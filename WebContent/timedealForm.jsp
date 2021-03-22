@@ -1,5 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ page import="java.util.Date"%>
+<%@ page import="java.text.SimpleDateFormat"%>
+<%
+	Date nowTime = new Date();
+	SimpleDateFormat sf = new SimpleDateFormat("yyyy년 MM월 dd일 a hh:mm:ss");
+%>
+
+
 
 <!DOCTYPE html>
 <html>
@@ -10,7 +18,7 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Login</title>
+<title>Time Deal</title>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet"
@@ -39,8 +47,7 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 
-					<li class="nav-item"><a class="nav-link" href="#">소개
-							<!-- <span class="sr-only">(current)</span> -->
+					<li class="nav-item"><a class="nav-link" href="#">소개 <!-- <span class="sr-only">(current)</span> -->
 					</a></li>
 
 					<li class="nav-item"><a class="nav-link" href="cartForm.jsp">장바구니</a></li>
@@ -68,27 +75,17 @@
 
 
 
-	<!-- Login Content -->
-	<h3 class="mt-3 mb-3 text-center">로그인</h3>
-	
-	<form class="container-md p-3 col-8 mb-5 mx-auto" action="/JSP-Shop/login.jsp" method="post">
-		
-		<label for="inputId" class="visually-hidden">아이디</label>
-		<input type="text" id="inputId" class="form-control mb-3" name="id"
-			placeholder="ID" required autofocus> 
-		
-		<label for="inputPassword" class="visually-hidden">비밀번호</label> 
-		<input type="password" id="inputPassword" class="form-control mb-3" name="pass"
-			placeholder="Password" required>
-			
-		<div class="checkbox mb-3">
-			<label> <input type="checkbox" value="remember-me">
-				아이디 저장
-			</label>
-		</div>
-		
-		<button type="submit" class="w-100 btn btn-lg btn-primary mb-5" value="로그인">로그인</button>
-	</form>
+	<!-- Time Deal Content -->
+	<h3 class="mt-3 mb-3 text-center">타임딜</h3>
+
+	<div class="container-md p-3 col-8 mb-5 mx-auto text-center">
+		현재 날짜와 시간은 <%=nowTime%> 입니다. 
+		<br>-------------------------------------------------------------------<br>
+		현재 날짜와 시간은 <%=sf.format(nowTime)%> 입니다.
+
+
+
+	</div>
 
 
 

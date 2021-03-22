@@ -28,7 +28,7 @@
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container">
-			<a class="navbar-brand" href="main.jsp"">Shop</a>
+			<a class="navbar-brand" href="main.jsp">Shop</a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -71,48 +71,48 @@
 	<!-- Join Content -->
 	<h3 class="mt-3 mb-3 text-center">회원가입</h3>
 
-	<form class="container-md p-3 col-8 mb-5 mx-auto">
+	<form class="container-md p-3 col-8 mb-5 mx-auto" action="/JSP-Shop/join.jsp" name="f" method="post">
 
 		<div class="mb-3">
-			<label for="inputEmail1" class="form-label">이메일</label> <input
-				type="email" class="form-control" id="inputEmail1"
-				aria-describedby="emailHelp" placeholder="email@site.com">
+			<label for="inputId" class="form-label">아이디</label> <input
+				type="text" class="form-control" id="inputId" name="id"
+				placeholder="아이디">
 			<!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
 		</div>
 
 		<div class="mb-3">
 			<label for="inputPassword" class="form-label">비밀번호</label> <input
-				type="password" class="form-control" id="inputPassword"
+				type="password" class="form-control" id="inputPassword" name="pass"
 				placeholder="비밀번호 (숫자, 영문, 특수문자 조합 최소 8자)">
 		</div>
 
 		<div class="mb-3">
 			<label for="inputPasswordCheck" class="form-label">비밀번호 확인</label> <input
-				type="password" class="form-control" id="inputPasswordCheck"
+				type="password" class="form-control" id="inputPasswordCheck" name="check"
 				placeholder="비밀번호 확인">
 		</div>
 
 		<div class="mb-3">
 			<label for="inputBirth" class="form-label">생년월일</label> <input
-				type="text" class="form-control" id="inputBirth"
+				type="text" class="form-control" id="inputBirth" name="birth"
 				placeholder="생년월일 입력 (yymmdd)">
 		</div>
 
 		<div class="mb-3">
 			<label for="inputEmail" class="form-label">이메일</label> <input
-				type="text" class="form-control" id="inputEmail"
+				type="text" class="form-control" id="inputEmail" name="email"
 				placeholder="이메일@주소">
 		</div>
 
 		<div class="mb-3">
 			<label for="inputPhone" class="form-label">전화번호</label> <input
-				type="text" class="form-control" id="inputPhone"
+				type="text" class="form-control" id="inputPhone" name="tel"
 				placeholder="전화번호 입력 (010XXXXXXXX)">
 		</div>
 
 		<div class="mb-3">
 			<label for="inputRecommender" class="form-label">추천인</label> <input
-				type="text" class="form-control" id="inputRecommender"
+				type="text" class="form-control" id="inputRecommender" name="recommender"
 				placeholder="추천인 아이디 입력">
 		</div>
 
@@ -152,7 +152,7 @@
 			</div>
 		</div>
 
-		<button type="submit" class="w-100 btn btn-lg btn-primary mb-5">완료</button>
+		<button type="submit" class="w-100 btn btn-lg btn-primary mb-5" value="회원가입">완료</button>
 
 	</form>
 

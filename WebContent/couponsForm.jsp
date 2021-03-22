@@ -10,7 +10,7 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Login</title>
+<title>Coupons</title>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet"
@@ -39,8 +39,7 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 
-					<li class="nav-item"><a class="nav-link" href="#">소개
-							<!-- <span class="sr-only">(current)</span> -->
+					<li class="nav-item"><a class="nav-link" href="#">소개 <!-- <span class="sr-only">(current)</span> -->
 					</a></li>
 
 					<li class="nav-item"><a class="nav-link" href="cartForm.jsp">장바구니</a></li>
@@ -68,27 +67,12 @@
 
 
 
-	<!-- Login Content -->
-	<h3 class="mt-3 mb-3 text-center">로그인</h3>
-	
-	<form class="container-md p-3 col-8 mb-5 mx-auto" action="/JSP-Shop/login.jsp" method="post">
+	<!-- Coupons Content -->
+	<h3 class="mt-3 mb-3 text-center">쿠폰</h3>
 		
-		<label for="inputId" class="visually-hidden">아이디</label>
-		<input type="text" id="inputId" class="form-control mb-3" name="id"
-			placeholder="ID" required autofocus> 
+	<div class="container-md p-3 col-8 mb-5 mx-auto text-center">
 		
-		<label for="inputPassword" class="visually-hidden">비밀번호</label> 
-		<input type="password" id="inputPassword" class="form-control mb-3" name="pass"
-			placeholder="Password" required>
-			
-		<div class="checkbox mb-3">
-			<label> <input type="checkbox" value="remember-me">
-				아이디 저장
-			</label>
-		</div>
-		
-		<button type="submit" class="w-100 btn btn-lg btn-primary mb-5" value="로그인">로그인</button>
-	</form>
+	</div>
 
 
 
